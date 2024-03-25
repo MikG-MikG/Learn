@@ -1,0 +1,236 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "collation": {
+            "value": "SQL_Latin1_General_CP1_CI_AS"
+        },
+        "databaseName": {
+            "value": "mONE4nuttin_n_chicks4free"
+        },
+        "tier": {
+            "value": "GeneralPurpose"
+        },
+        "skuName": {
+            "value": "GP_S_Gen5_2"
+        },
+        "location": {
+            "value": "eastus"
+        },
+        "maxSizeBytes": {
+            "value": 34359738368
+        },
+        "sampleName": {
+            "value": ""
+        },
+        "serverName": {
+            "value": "hope42-g3t-good"
+        },
+        "licenseType": {
+            "value": ""
+        },
+        "readScaleOut": {
+            "value": ""
+        },
+        "zoneRedundant": {
+            "value": false
+        },
+        "minCapacity": {
+            "value": "0.5"
+        },
+        "autoPauseDelay": {
+            "value": 60
+        },
+        "numberOfReplicas": {
+            "value": 0
+        },
+        "enableADS": {
+            "value": false
+        },
+        "allowAzureIps": {
+            "value": false
+        },
+        "allowClientIp": {
+            "value": false
+        },
+        "clientIpValue": {
+            "value": "71.233.67.161"
+        },
+        "databaseTags": {
+            "value": {}
+        },
+        "serverTags": {
+            "value": {}
+        },
+        "enableVA": {
+            "value": false
+        },
+        "vaStoragelessEnabled": {
+            "value": false
+        },
+        "enableSqlLedger": {
+            "value": false
+        },
+        "enableDigestStorage": {
+            "value": "Disabled"
+        },
+        "digestStorageOption": {
+            "value": ""
+        },
+        "digestStorageName": {
+            "value": ""
+        },
+        "blobStorageContainerName": {
+            "value": ""
+        },
+        "retentionDays": {
+            "value": ""
+        },
+        "retentionPolicy": {
+            "value": false
+        },
+        "digestAccountResourceGroup": {
+            "value": ""
+        },
+        "isNewDigestLocation": {
+            "value": false
+        },
+        "digestRegion": {
+            "value": ""
+        },
+        "storageAccountdigestRegion": {
+            "value": ""
+        },
+        "isPermissionAssigned": {
+            "value": false
+        },
+        "sqlLedgerTemplateLink": {
+            "value": "https://sqlazureextension.hosting.portal.azure.net/sqlazureextension/Content/2.1.02610178/DeploymentTemplates/SqlLedger.json"
+        },
+        "useVAManagedIdentity": {
+            "value": false
+        },
+        "enablePrivateEndpoint": {
+            "value": false
+        },
+        "privateEndpointNestedTemplateId": {
+            "value": "pe-eafdb526-15c4-43a0-b1bd-e32e7f54c01d"
+        },
+        "privateEndpointSubscriptionId": {
+            "value": ""
+        },
+        "privateEndpointResourceGroup": {
+            "value": ""
+        },
+        "privateEndpointName": {
+            "value": ""
+        },
+        "privateEndpointLocation": {
+            "value": ""
+        },
+        "privateEndpointSubnetId": {
+            "value": ""
+        },
+        "privateLinkServiceName": {
+            "value": ""
+        },
+        "privateLinkServiceServiceId": {
+            "value": ""
+        },
+        "privateEndpointVnetSubscriptionId": {
+            "value": ""
+        },
+        "privateEndpointVnetResourceGroup": {
+            "value": ""
+        },
+        "privateEndpointVnetName": {
+            "value": ""
+        },
+        "privateEndpointSubnetName": {
+            "value": ""
+        },
+        "enablePrivateDnsZone": {
+            "value": true
+        },
+        "privateLinkPrivateDnsZoneFQDN": {
+            "value": "privatelink.database.windows.net"
+        },
+        "privateLinkPrivateDnsZoneRG": {
+            "value": ""
+        },
+        "privateEndpointDnsRecordUniqueId": {
+            "value": "eafdb526-15c4-43a0-b1bd-e32e7f54c020"
+        },
+        "privateEndpointTemplateLink": {
+            "value": "https://sqlazureextension.hosting.portal.azure.net/sqlazureextension/Content/2.1.02610178/DeploymentTemplates/PrivateEndpoint.json"
+        },
+        "privateDnsForPrivateEndpointTemplateLink": {
+            "value": "https://sqlazureextension.hosting.portal.azure.net/sqlazureextension/Content/2.1.02610178/DeploymentTemplates/PrivateDnsForPrivateEndpoint.json"
+        },
+        "privateDnsForPrivateEndpointNicTemplateLink": {
+            "value": "https://sqlazureextension.hosting.portal.azure.net/sqlazureextension/Content/2.1.02610178/DeploymentTemplates/PrivateDnsForPrivateEndpointNic.json"
+        },
+        "privateDnsForPrivateEndpointIpConfigTemplateLink": {
+            "value": "https://sqlazureextension.hosting.portal.azure.net/sqlazureextension/Content/2.1.02610178/DeploymentTemplates/PrivateDnsForPrivateEndpointIpConfig.json"
+        },
+        "clientIpRuleName": {
+            "value": "ClientIp-2024-3-10_12-30-33"
+        },
+        "minimalTlsVersion": {
+            "value": "1.2"
+        },
+        "publicNetworkAccess": {
+            "value": "Disabled"
+        },
+        "connectionType": {
+            "value": "Default"
+        },
+        "requestedBackupStorageRedundancy": {
+            "value": "Local"
+        },
+        "availabilityZone": {
+            "value": ""
+        },
+        "useFreeLimit": {
+            "value": true
+        },
+        "freeLimitExhaustionBehavior": {
+            "value": "AutoPause"
+        },
+        "maintenanceConfigurationId": {
+            "value": "/subscriptions/32b06ef9-3ec4-4380-ada0-c3cc6bd1a174/providers/Microsoft.Maintenance/publicMaintenanceConfigurations/SQL_Default"
+        },
+        "administratorLogin": {
+            "value": "upinda-mix-dktechno1"
+        },
+        "administratorLoginPassword": {
+            "value": null
+        },
+        "administrators": {
+            "value": {
+                "administratorType": "activeDirectory",
+                "login": "SQL Copilot PPE",
+                "sid": "0fc12b9a-5463-4b87-8f10-765fecb39990",
+                "tenantId": "00b0853d-69ad-405b-99a9-cc284bc3a509",
+                "azureADOnlyAuthentication": false,
+                "principalType": "Application"
+            }
+        },
+        "identity": {
+            "value": {
+                "type": "None"
+            }
+        },
+        "primaryUserAssignedIdentityId": {
+            "value": ""
+        },
+        "federatedClientId": {
+            "value": ""
+        },
+        "servicePrincipal": {
+            "value": {
+                "type": "None"
+            }
+        }
+    }
+}
